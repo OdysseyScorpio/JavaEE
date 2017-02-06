@@ -4,8 +4,12 @@ public class Book {
 private int id;
 private String title;
 private int numberOfPages;
-	public Book (int id, String title, int numberOfPages){
-		
+	
+	public Book(int id, String title, int numberOfPages) {
+		super();
+		this.id = id;
+		this.title = title;
+		this.numberOfPages = numberOfPages;
 	}
 	/**
 	 * @return the id

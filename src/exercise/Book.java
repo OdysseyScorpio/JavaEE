@@ -47,4 +47,12 @@ private int numberOfPages;
 	public void setNumberOfPages(int numberOfPages) {
 		this.numberOfPages = numberOfPages;
 	}
+	public void setChange(String change) {
+		
+		setTitle(change);
+	}
+public void setChange(int change) {
+	setNumberOfPages(change);
+		
+	}
 }

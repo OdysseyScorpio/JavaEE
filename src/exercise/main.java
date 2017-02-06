@@ -12,6 +12,11 @@ public class main {
 		System.out.println(newBook.getTitle());
 		service.addToMap(newBook);
 
+		service.updateToMap("Moby Dick", "Moby Dick 2000 anniversary edition");
+		service.updateToMap("Moby Dick", 1950);
+		
+		
+		
 		service.deleteFromMap("Moby Dick");
 	}
 

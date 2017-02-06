@@ -13,8 +13,9 @@ public class service {
 	}
 
 	public static void deleteFromMap(String title) {
-		System.out.println("Removing");
-		System.out.println(bookStore.get(bookStore.get(title)).getTitle()+"|"+ bookStore.get(bookStore.get(title)).getNumberOfPages());
+		System.out.println("Removing " + title);
+		System.out.println(bookStore.get(title).getTitle() + "|" + bookStore.get(title).getNumberOfPages() );
+		
 		bookStore.remove(title);
 		
 	}
